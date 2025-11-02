@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0x5D5DC5BE6E433E34",
+      "boundary_crc": "0x7ED8825EFBD148D4",
       "design_src": "SBD",
       "device": "xcvu3p-ffvc1517-2-e",
       "name": "bd_f519",
@@ -361,7 +361,7 @@
         "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
         "parameters": {
           "ADDR_WIDTH": {
-            "value": "8",
+            "value": "7",
             "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
@@ -487,7 +487,7 @@
         "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
         "parameters": {
           "ADDR_WIDTH": {
-            "value": "8",
+            "value": "7",
             "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
@@ -613,8 +613,8 @@
         "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
         "parameters": {
           "ADDR_WIDTH": {
-            "value": "32",
-            "value_src": "default"
+            "value": "7",
+            "value_src": "ip_prop"
           },
           "ARUSER_WIDTH": {
             "value": "0",
@@ -5196,7 +5196,7 @@
         "inst_hier_path": "m01_sc2axi",
         "parameters": {
           "AXI_ADDR_WIDTH": {
-            "value": "8"
+            "value": "7"
           },
           "AXI_ID_WIDTH": {
             "value": "1"
@@ -6223,7 +6223,7 @@
             "inst_hier_path": "m01_exit_pipeline/m01_exit",
             "parameters": {
               "ADDR_WIDTH": {
-                "value": "8"
+                "value": "7"
               },
               "ENABLE_PIPELINING": {
                 "value": "0"
@@ -6324,7 +6324,7 @@
         "inst_hier_path": "m02_sc2axi",
         "parameters": {
           "AXI_ADDR_WIDTH": {
-            "value": "8"
+            "value": "7"
           },
           "AXI_ID_WIDTH": {
             "value": "1"
@@ -7351,7 +7351,7 @@
             "inst_hier_path": "m02_exit_pipeline/m02_exit",
             "parameters": {
               "ADDR_WIDTH": {
-                "value": "8"
+                "value": "7"
               },
               "ENABLE_PIPELINING": {
                 "value": "0"
@@ -7452,7 +7452,7 @@
         "inst_hier_path": "m03_sc2axi",
         "parameters": {
           "AXI_ADDR_WIDTH": {
-            "value": "32"
+            "value": "7"
           },
           "AXI_ID_WIDTH": {
             "value": "1"
@@ -8479,7 +8479,7 @@
             "inst_hier_path": "m03_exit_pipeline/m03_exit",
             "parameters": {
               "ADDR_WIDTH": {
-                "value": "32"
+                "value": "7"
               },
               "ENABLE_PIPELINING": {
                 "value": "0"

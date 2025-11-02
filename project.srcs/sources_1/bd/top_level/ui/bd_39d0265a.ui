@@ -55,8 +55,8 @@ preplace netloc system_interconnect_M03_AXI 1 2 2 N 400 NJ
 levelinfo -pg 1 0 150 440 710 1000 1200
 pagesize -pg 1 -db -bbox -sgen -130 0 1380 640
 ",
-   "No Loops_ScaleFactor":"0.998",
-   "No Loops_TopLeft":"-126,-59",
+   "No Loops_ScaleFactor":"0.978",
+   "No Loops_TopLeft":"-126,-52",
    "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
 #  -string -flagsOSRD
 preplace inst pcie_bridge -pg 1 -lvl 2 -x 480 -y -220 -defaultsOSRD
